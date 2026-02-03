@@ -1,0 +1,7 @@
+[Script]
+Sub_info = type=generic, script-path=https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Surge/Surge%204/Script/sub_info_panel.js, script-update-interval=0, argument=url=https%3A%2F%2Fdler.cloud%2Fapi%2Fv3%2Fdownload.getFile%2FfzX7IJOSaRsu33MivTTW%3Fheader%3Dtrue.gif&reset_day=1&title=Dler%20Cloud&icon=cloud.fill&color=#333333
+
+netflix_check = type=generic, script-path=https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Surge/Surge%204/Script/netflix_check.js, argument=title=Netflix
+disney_check = type=generic, script-path=https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Surge/Surge%204/Script/disney_check.js, argument=title=Disney Plus
+youtube_check = type=generic, script-path=https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Surge/Surge%204/Script/youtube_check.js, argument=title=YouTube Premium
+chatgpt_check = type=generic, script-path=https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Surge/Surge%204/Script/chatgpt_check.js, argument=icon=lasso.and.sparkles&iconerr=xmark.seal.fill&icon-color=#336FA9&iconerr-color=#D65C51
